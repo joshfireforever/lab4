@@ -1,0 +1,77 @@
+body {
+    background-image:url(startile.jpg);
+    background-color: black;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    color: white;
+}
+
+#banner {
+    width: 100%;
+    display: block;
+}
+
+#headerImg {
+    width: 950px;
+}
+
+#navSpan {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+}
+
+nav a {
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    font-family: 'Spartan', sans-serif;
+    font-weight:100;
+}
+
+#homeImg:hover {
+    filter: blur(2px);
+}
+
+nav a:hover {
+    filter: blur(2px);
+    color: white;
+}
+
+#planet {
+    width: 100%;
+    display: block;
+}
+
+#menu {
+    font-size: 1.5em;
+}
+
+#planetImg {
+    width: 200px;
+}
+
+table {
+    margin: 0px auto;
+    width: 500px;
+}
+
+td {
+    font-size: 0.8em;
+}
+
+
+#footerImg {
+    width: 200px;
+}
+
+footer {
+    color: gray;
+    font-size: 50%;
+}
